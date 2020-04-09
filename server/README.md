@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that Express is a framework that sits on top of Node.js. It makes it easier to send files and media to a browser, with just one line of code instead of the many lines it would take with just Node.js alone.
+
 - [ ] Describe Middleware?
+
+Middleware adds features that are otherwise lacking in frameworks like Express or in Node.js. They can be added individually to a project based on need. Anything that gets passed to the server generally passes through the middleware first.
 
 - [ ] Describe a Resource?
 
+Everything is a resource on a computer/server and each resource can be accessed with a unique URL through API's when using RESTful Web API principles.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API can return a server response can contain just about anything, from objects to booleans, to strings all converted into JSON.
+
 - [ ] How can we partition our application into sub-applications?
+
+It can be set up much the same way a React app can but, instead of using imports, you use 'requires'. This allows you to import other files into a file, making a tree-like structure.
 
 ## Minimum Viable Product
 
